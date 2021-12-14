@@ -18,5 +18,5 @@ It is a Weather-Journal asynchronous web app that contacts Web API (https://open
 
 ## Technologies used
 
-HTML, CSS and Javscript.
+HTML, CSS and Javscript(using Node).
 
