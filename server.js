@@ -37,6 +37,7 @@ function postFullData(request, response) {
     feeling: request.body.feeling,
     date: request.body.date,
   };
+  response.send(projectData);
 }
 
 app.get("/getLastData", getLastData);

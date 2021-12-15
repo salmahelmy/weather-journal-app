@@ -48,7 +48,7 @@ function generateData(e) {
  * @returns weatherDataJson.main.temp (if no error happenend)
  */
 const getWeatherApiData = async (apiLink, zipCode, apiKey) => {
-  const apiUrl = `https://${apiLink}${zipCode}&appid=${apiKey}`;
+  const apiUrl = `https://${apiLink}${zipCode}&appid=${apiKey}&units=metric`;
   const weatherData = await fetch(apiUrl); //units
   try {
     const weatherDataJson = await weatherData.json();
